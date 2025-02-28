@@ -1,0 +1,428 @@
+{
+  "airtime": {
+    "text": "msg_block_airtime",
+    "photo": "None",
+    "file": "None",
+    "keyboard": "key_block_airtime",
+    "status": "True",
+    "sub": {
+      "double": {
+        "text": "msg_block_airtime",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_airtime",
+        "status": "False"
+      },
+      "divepool": {
+        "text": " msg_block_airtime_divepool",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_airtime_divepool",
+        "status": "True",
+        "sub": {
+          "double": {
+            "text": "msg_block_airtime_divepool",
+            "photo": "None",
+            "file": "None",
+            "keyboard": "key_block_airtime_divepool",
+            "status": "False"
+          },
+          "two": {
+            "text": "msg_block_airtime_divepool_two",
+            "photo": "img_block_airtime_divepool_two",
+            "file": "None",
+            "keyboard": "key_block_airtime_divepool_two",
+            "status": "False"
+          },
+          "four": {
+            "text": "msg_block_airtime_divepool_four_0",
+            "photo": "img_block_airtime_divepool_four_0",
+            "file": "None",
+            "keyboard": "key_block_airtime_divepool_four_0",
+            "status": "False",
+            "sub": {
+              "double": {
+                "text": "msg_block_airtime_divepool_four_0",
+                "photo": "img_block_airtime_divepool_four_0",
+                "file": "None",
+                "keyboard": "key_block_airtime_divepool_four_0",
+                "status": "True"
+              },
+              "1": {
+                "text": "msg_block_airtime_divepool_four_1",
+                "photo": "img_block_airtime_divepool_four_1",
+                "file": "None",
+                "keyboard": "key_block_airtime_divepool_four_1",
+                "status": "True"
+              },
+              "2": {
+                "text": "msg_block_airtime_divepool_four_2",
+                "photo": "img_block_airtime_divepool_four_2",
+                "file": "None",
+                "keyboard": "key_block_airtime_divepool_four_2",
+                "status": "True"
+              },
+              "3": {
+                "text": "msg_block_airtime_divepool_four_3",
+                "photo": "img_block_airtime_divepool_four_3",
+                "file": "None",
+                "keyboard": "key_block_airtime_divepool_four_3",
+                "status": "True"
+              }
+            }
+          },
+          "eight": {
+            "text": "msg_block_airtime_divepool_eight",
+            "photo": "None",
+            "file": "file_block_airtime_divepool_eight",
+            "keyboard": "key_block_airtime_divepool_eight",
+            "status": "False"
+          }
+        }
+      },
+      "ga4": {
+        "text": "msg_block_airtime_ga4",
+        "photo": "None",
+        "file": "file_block_airtime_ga4",
+        "keyboard": "key_block_airtime_ga4",
+        "status": "False"
+      },
+      "test": {
+        "text": "msg_block_airtime_test",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_airtime_test",
+        "status": "True"
+      },
+      "first": {
+        "text": "msg_block_airtime_first",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_airtime_first",
+        "status": "True"
+      },
+      "apps": {
+        "text": "msg_block_airtime_apps",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_airtime_apps",
+        "status": "True"
+      },
+      "equipment": {
+        "text": "msg_block_airtime_equipment",
+        "photo": "None",
+        "file": "file_block_airtime_equipment",
+        "keyboard": "key_block_airtime_equipment",
+        "status": "False"
+      },
+      "buy": {
+        "text": "msg_block_airtime_buy",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_airtime_buy",
+        "status": "True"
+      },
+      "locations": {
+        "text": "msg_block_airtime_locations",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_airtime_locations",
+        "status": "True"
+      }
+    }
+  },
+  "jumping": {
+    "text": "msg_block_jumping",
+    "photo": "None",
+    "file": "None",
+    "keyboard": "key_block_jumping",
+    "status": "True",
+    "sub": {
+      "double": {
+        "text": "msg_block_jumping",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_jumping",
+        "status": "False"
+      },
+      "aff": {
+        "text": "msg_block_jumping_aff_0",
+        "photo": "None",
+        "file": "file_block_jumping_aff_0",
+        "keyboard": "key_block_jumping_aff_0",
+        "status": "False",
+        "sub": {
+          "double": {
+            "text": "msg_block_jumping_aff_0",
+            "photo": "None",
+            "file": "file_block_jumping_aff_0",
+            "keyboard": "key_block_jumping_aff_0",
+            "status": "True"
+          },
+          "1": {
+            "text": "msg_block_jumping_aff_1",
+            "photo": "None",
+            "file": "file_block_jumping_aff_1",
+            "keyboard": "key_block_jumping_aff_1",
+            "status": "True"
+          }
+        }
+      },
+      "forester": {
+        "text": "msg_block_jumping_forester",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_jumping_forester",
+        "status": "True"
+      },
+      "install": {
+        "text": "msg_block_jumping_install",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_jumping_install",
+        "status": "True"
+      },
+      "piloting": {
+        "text": "msg_block_jumping_piloting",
+        "photo": "None",
+        "file": "file_block_jumping_piloting",
+        "keyboard": "key_block_jumping_piloting",
+        "status": "False"
+      },
+      "special": {
+        "text": "msg_block_jumping_special",
+        "photo": "None",
+        "file": "file_block_jumping_special",
+        "keyboard": "key_block_jumping_special",
+        "status": "False"
+      },
+      "refusals": {
+        "text": "msg_block_jumping_refusals",
+        "photo": "img_block_jumping_refusals",
+        "file": "None",
+        "keyboard": "key_block_jumping_refusals",
+        "status": "False"
+      },
+      "equipment": {
+        "text": "msg_block_jumping_equipment",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_jumping_equipment",
+        "status": "True"
+      },
+      "documents": {
+        "text": "msg_block_jumping_documents",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_jumping_documents",
+        "status": "True"
+      },
+      "category": {
+        "text": "msg_block_jumping_category",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_jumping_category",
+        "status": "True"
+      },
+      "more": {
+        "text": "msg_block_jumping_more",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_jumping_more",
+        "status": "True",
+        "sub": {
+          "double": {
+            "text": "msg_block_jumping_more",
+            "photo": "None",
+            "file": "None",
+            "keyboard": "key_block_jumping_more",
+            "status": "False"
+          },
+          "start": {
+            "text": "msg_block_jumping_more_start",
+            "photo": "None",
+            "file": "None",
+            "keyboard": "key_block_jumping_more_start",
+            "status": "True"
+          },
+          "maps": {
+            "text": "msg_block_jumping_more_maps",
+            "photo": "None",
+            "file": "None",
+            "keyboard": "key_block_jumping_more_maps",
+            "status": "True"
+          },
+          "watch": {
+            "text": "msg_block_jumping_more_watch",
+            "photo": "img_block_jumping_more_watch",
+            "file": "None",
+            "keyboard": "key_block_jumping_more_watch",
+            "status": "False"
+          },
+          "insurance": {
+            "text": "msg_block_jumping_more_insurance",
+            "photo": "None",
+            "file": "None",
+            "keyboard": "key_block_jumping_more_insurance",
+            "status": "True"
+          }
+        }
+      }
+    }
+  },
+  "competitions": {
+    "text": "msg_block_competitions",
+    "photo": "None",
+    "file": "None",
+    "keyboard": "key_block_competitions",
+    "status": "True",
+    "sub": {
+      "double": {
+        "text": "msg_block_competitions",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_competitions",
+        "status": "False"
+      },
+      "flycontest": {
+        "text": "msg_block_competitions_flycontest",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_competitions_flycontest",
+        "status": "True"
+      },
+      "rules": {
+        "text": "msg_block_competitions_rules",
+        "photo": "None",
+        "file": "file_block_competitions_rules",
+        "keyboard": "key_block_competitions_rules",
+        "status": "False"
+      },
+      "standards": {
+        "text": "msg_block_competitions_standards",
+        "photo": "img_block_competitions_standards",
+        "file": "None",
+        "keyboard": "key_block_competitions_standards",
+        "status": "False"
+      },
+      "calendar": {
+        "text": "msg_block_competitions_calendar",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_competitions_calendar",
+        "status": "True"
+      },
+      "rusada": {
+        "text": "msg_block_competitions_rusada",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_competitions_rusada",
+        "status": "True"
+      }
+    }
+  },
+  "additionally": {
+    "text": "msg_block_additionally",
+    "photo": "None",
+    "file": "None",
+    "keyboard": "key_block_additionally",
+    "status": "True",
+    "sub": {
+      "double": {
+        "text": "msg_block_additionally",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_additionally",
+        "status": "False"
+      },
+      "aerodynamics": {
+        "text": "msg_block_additionally_aerodynamics",
+        "photo": "None",
+        "file": "file_block_additionally_aerodynamics",
+        "keyboard": "key_block_additionally_aerodynamics",
+        "status": "False"
+      },
+      "maps": {
+        "text": "msg_block_additionally_maps",
+        "photo": "None",
+        "file": "file_block_additionally_maps",
+        "keyboard": "key_block_additionally_maps",
+        "status": "False"
+      },
+      "weather": {
+        "text": "msg_block_additionally_weather",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_additionally_weather",
+        "status": "True"
+      }
+    }
+  },
+  "about": {
+    "text": "msg_block_about",
+    "photo": "None",
+    "file": "None",
+    "keyboard": "key_block_about",
+    "status": "True",
+    "sub": {
+      "double": {
+        "text": "msg_block_about",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_about",
+        "status": "False"
+      },
+      "director": {
+        "text": "msg_block_about_director",
+        "photo": "img_block_about_director",
+        "file": "None",
+        "keyboard": "key_block_about_director",
+        "status": "False"
+      },
+      "mission": {
+        "text": "msg_block_about_mission",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_about_mission",
+        "status": "True"
+      },
+      "contacts": {
+        "text": "msg_block_about_contacts",
+        "photo": "None",
+        "file": "None",
+        "keyboard": "key_block_about_contacts",
+        "status": "True"
+      },
+      "trainer": {
+        "text": "msg_block_about_trainer_0",
+        "photo": "img_block_about_trainer_0",
+        "file": "None",
+        "keyboard": "key_block_about_trainer_0",
+        "status": "False",
+        "sub": {
+          "double": {
+            "text": "msg_block_about_trainer_0",
+            "photo": "img_block_about_trainer_0",
+            "file": "None",
+            "keyboard": "key_block_about_trainer_0",
+            "status": "True"
+          },
+          "1": {
+            "text": "msg_block_about_trainer_1",
+            "photo": "img_block_about_trainer_1",
+            "file": "None",
+            "keyboard": "key_block_about_trainer_1",
+            "status": "True"
+          },
+          "2": {
+            "text": "msg_block_about_trainer_2",
+            "photo": "img_block_about_trainer_2",
+            "file": "None",
+            "keyboard": "key_block_about_trainer_2",
+            "status": "True"
+          }
+        }
+      }
+    }
+  }
+}
