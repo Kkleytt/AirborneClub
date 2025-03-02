@@ -122,20 +122,31 @@ async def send_message(bot, db, chat_id, user_nic, user_name, new_text, new_phot
 
     # Отправляем новое сообщение
     if new_photo:
-        photo_file = FSInputFile(path=os.path.join(images_dir, new_photo))
         if del_msg is True:
-            await bot.delete_message(chat_id, previous_message_id)
+            try:
+                await bot.delete_message(chat_id, previous_message_id)
+            except Exception as ex:
+                await error(bot, text=f"Сообщение для удаления слишком старое - {ex}")
+
+        photo_file = FSInputFile(path=os.path.join(images_dir, new_photo))
         new_msg = await bot.send_photo(chat_id=chat_id, photo=photo_file, caption=new_text,
                                        reply_markup=keyboard, parse_mode="MarkdownV2")
     elif new_file and file_extension in document_types:
-        doc_file = FSInputFile(path=os.path.join(files_dir, new_file))
         if del_msg is True:
-            await bot.delete_message(chat_id, previous_message_id)
+            try:
+                await bot.delete_message(chat_id, previous_message_id)
+            except Exception as ex:
+                await error(bot, text=f"Сообщение для удаления слишком старое - {ex}")
+
+        doc_file = FSInputFile(path=os.path.join(files_dir, new_file))
         new_msg = await bot.send_document(chat_id=chat_id, document=doc_file, caption=new_text,
                                           reply_markup=keyboard, parse_mode="MarkdownV2")
     else:
         if del_msg is True:
-            await bot.delete_message(chat_id, previous_message_id)
+            try:
+                await bot.delete_message(chat_id, previous_message_id)
+            except Exception as ex:
+                await error(bot, text=f"Сообщение для удаления слишком старое - {ex}")
         new_msg = await bot.send_message(chat_id=chat_id, text=new_text,
                                          reply_markup=keyboard, parse_mode="MarkdownV2")
 
@@ -158,7 +169,7 @@ async def log(text, logging=True):
                 json.dump(CONFIG, f, indent=4)
 
             # Создаем новый log-файл
-            open(f"./logs/{CONFIG['LOG_FILE']}", "w").close()
+            open("./logs/{CONFIG['LOG_FILE']}", "w").close()
 
         # Записываем данные
         with open(f"./logs/{CONFIG['LOG_FILE']}", "a", encoding="utf-8") as f:
@@ -173,7 +184,7 @@ async def error(bot, text, crit=False):
     :param text: Текст для отправки и логирования
     :param crit: Параметр критического оповещения
     """
-    await log(text=text, logging=True)
+    await log(text=text, logging=False)
     if CONFIG["SEND_ALL_NOTIFICATIONS"] == "True":
         await bot.send_message(chat_id=CONFIG["ADMIN"], text=text, parse_mode="None")
     elif CONFIG["SEND_CRITICAL_NOTIFICATIONS"] == "True" and crit is True:
