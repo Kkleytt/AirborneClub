@@ -169,7 +169,7 @@ async def log(text, logging=True):
                 json.dump(CONFIG, f, indent=4)
 
             # Создаем новый log-файл
-            open("./logs/{CONFIG['LOG_FILE']}", "w").close()
+            open(f"./logs/{CONFIG['LOG_FILE']}", "w").close()
 
         # Записываем данные
         with open(f"./logs/{CONFIG['LOG_FILE']}", "a", encoding="utf-8") as f:
